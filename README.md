@@ -91,25 +91,3 @@ The seller's own server reads only the seller's item log (Custom key: user → l
 Message **[Merogie [4054802]](https://www.torn.com/profiles.php?XID=4054802)** in Torn. If a payment hasn't shown up after a few minutes, include the time you sent it and the message you used.
 
 *This is a fan-made tool and is not affiliated with or endorsed by Torn.*
-
----
-
-## Other scripts by Merogie
-
-These are free. Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/), then click a link:
-
-- ⚔️ **FF Scouter V2 + BS Threat Border + War Sorter**: [Install](https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/ff_scouter_bs_enhanced.user.js)
-- ✈️ **Abroad Stock Restock Alert**: [Install](https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/torn_abroad_stock_alert.user.js)
-- 🛒 **Shop Restock Alerts & Quick Buy**: [Install](https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/torn_restock_alerts.user.js)
-
-### 📱 Torn PDA
-
-In Torn PDA go to **Settings → Advanced → User Scripts → Add**, and paste one of these URLs:
-
-- 🎯 Stakeout Radar (PDA): `https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/tornpda_stakeout_radar.user.js`
-- ⚔️ War Sorter Enhanced (PDA): `https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/tornpda_war_enhanced.user.js`
-- ✈️ Abroad Stock Restock Alert: `https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/torn_abroad_stock_alert.user.js`
-
-The other scripts never ship with an API key: each asks for your own, keeps it in your browser's script storage, and sends it only to `api.torn.com`.
-
-Scripts installed from the old `Enhanced-FF-Scouter-Script` links must be reinstalled once from the links above to keep receiving updates.
