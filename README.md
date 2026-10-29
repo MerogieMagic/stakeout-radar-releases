@@ -62,7 +62,7 @@ Traders who regularly ask to be hospitalized for safe-keeping can be watched lik
 ### Free for everyone
 
 - Watch 1 target: hospital timer, and a desktop notification when they're out (alarm sounds come with Sniper Pro).
-- Energy left on the attack screen.
+- On the attack screen: energy left, your life, and a reminder to heal before you start a fight (with a link that opens your items page).
 - A small counter in the header shows your API calls per minute.
 - Works with several Torn tabs open: only one tab polls the API and only one tab rings, so your API usage doesn't multiply.
 
