@@ -42,7 +42,7 @@ When the chain is about to drop, or you just want to burn your energy, you need 
 
 Add the client faction and see at a glance which members you're allowed to hit.
 
-- Members are sorted into **eligible**, **soon**, **in hospital** and **active**, using the contract's rule (offline, idle or both, for at least X minutes).
+- Members are sorted into **eligible**, **soon**, **in hospital** and **active**, using the contract's rule: offline, idle or both for at least X minutes, or **online right now** when the job is to hospitalize the onliners.
 - Each merc sees the eligible members in a different order, so you spread out instead of all hitting the same member.
 - The contract shows a **Stricken** or **Standard** weapon reminder.
 - On the attack screen a banner confirms whether this member is eligible, before you swing.
@@ -78,7 +78,7 @@ Traders who regularly ask to be hospitalized for safe-keeping can be watched lik
 | | Price |
 |---|---|
 | One module | **1 Xanax per 7 days** |
-| Full Radar (`FULL`) | **2 Xanax per 7 days** |
+| Full Radar (`FULL`) | **2 Xanax per 7 days**<br>🎃 **Year-end promo: 1 Xanax per 7 days** for gifts sent until 31 Dec 2026 (Torn time). Promo time can run up to 31 Dec 2027. |
 | Free trial | **24 hours of everything**, once per Torn account (accounts 7+ days old) |
 
 **How to buy:** on your Items page, send Xanax to **Merogie [4054802]** with the module code as the message, for example `CK`.
