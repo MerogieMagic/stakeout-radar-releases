@@ -8,32 +8,68 @@ The install link gives you the free radar. Paid modules and the free trial run i
 
 ![Radar with targets](images/radar-targets.png)
 
-## What it does
+## Built for how you merc
 
-**Free for everyone**
-- Watch 1 target: hospital timer and an alert when they're out.
-- Energy remaining on the attack screen ("125/150 E · 5 hits").
+### 🎯 Ad-hoc merc contracts: the target watcher (Sniper Pro)
+
+Add the contract target and get on with your day. The radar rings only when the target meets **every condition of the contract**:
+
+- **Okay**: out of hospital and not in jail, abroad or flying.
+- **Active the way the contract asks**: online now, or last action within 2, 5, 10, 15, 30 or 60 minutes (set per target), or any activity.
+- **No Early Discharge**: if they're in a ranked war or on a territory wall (attacking or defending), the contract pauses itself, so you don't hit someone who can be pulled out of hospital. Click to force it if you choose to.
+
+Also for contracts:
+- **Stricken contracts:** right-click a target to tag it 🎯 Stricken. It's alerted like any other target, and every alert adds "🗡️ Use your Stricken weapon!". Its card and attack button turn purple as a reminder. Right-click again to untag.
+- Hospital countdown, with polling every second in the last minute, so you're on the attack page the moment they're out.
+- Flight landings: an alert when they land and are hittable.
+- Illegal-hit evidence (turn it on in Options): if someone else hospitalizes your target, you get an evidence card with a screenshot.
+- More than 4 targets fold into one-line rows. Each row shows online status, time since last action, name, then an HP bar when they're out or a red ✚ with their hospital time, 🧱 when they're on a wall, ✈️ when flying, and **Hit**, which turns green when they can be hit. Click a row for the full card.
+
+<img src="images/radar-compact.png" width="380" alt="One-line rows for a long target list">
+
+### 🔗 Saving chains and farming Halloween treats: Chain Kit
+
+When the chain is about to drop, or you just want to burn your energy, you need a hittable target **now**, not a search through the people page.
+
+- **Quick Hit** opens an attack on a target from your **Smart Pool**: level-1 players checked to be out of hospital, not in jail, not abroad, not federal and not under new-citizen protection. Each merc gets a different random pool, so you don't collide on the same targets.
+- On the attack screen, the **Attack Next Target** bar takes you to the next pool target in one click, and shows your energy left ("125/150 E · 5 hits").
+- **Chain watcher:** chain timer bells before the chain breaks.
+- Ideal for Halloween: dump your energy into fast, easy hits to farm treats.
+
+![Attack screen bar](images/attack-bar.png)
+
+### 🏴 Turtling a faction, before or during a war: Faction Watch
+
+Add the client faction and see at a glance which members you're allowed to hit.
+
+- Members are sorted into **eligible**, **soon**, **in hospital** and **active**, using the contract's rule (offline, idle or both, for at least X minutes).
+- Each merc sees the eligible members in a different order, so you spread out instead of all hitting the same member.
+- The contract shows a **Stricken** or **Standard** weapon reminder.
+- On the attack screen a banner confirms whether this member is eligible, before you swing.
+- A chime when someone becomes eligible.
+
+<img src="images/faction-watch.png" width="380" alt="Faction Watch contract">
+
+### 💼 Hospitalization services: Trader Watch
+
+Traders who regularly ask to be hospitalized for safe-keeping can be watched like targets. You're alerted the moment one is **out of hospital or has landed, and online or idle**, so you can offer your service or hit them straight away, before someone else mugs them. Mute any trader on their own.
+
+### Free for everyone
+
+- Watch 1 target: hospital timer, and a desktop notification when they're out (alarm sounds come with Sniper Pro).
+- Energy left on the attack screen.
 - A small counter in the header shows your API calls per minute.
 - Works with several Torn tabs open: only one tab polls the API and only one tab rings, so your API usage doesn't multiply.
 
-**Paid modules** (each one on its own, or all of them together)
+### Modules at a glance
 
-| Module | Code | What you get |
+| Module | Code | For |
 |---|---|---|
-| 🎯 **Sniper Pro** | `SP` | Unlimited targets, attack-eligible alarm (out of hospital **and** active within your limit), inactivity filter, **Early Discharge and wall detection** (ranked wars; territory walls in either role: attacking or defending), contract auto-pause, illegal-hit evidence cards, faster polling near discharge. Long lists fold into one-line rows: last action, HP bar, hospital countdown and a Hit button. |
-| 🏴 **Faction Watch** | `FW` | Turtle contracts: watch a client faction and see which members are eligible (offline / idle for at least X minutes), Stricken or Standard weapon reminder, and an eligibility check on the attack screen. |
-| 🔗 **Chain Kit** | `CK` | Chain timer bells, and a Smart Pool of verified level-1 targets that skips anyone in hospital, jail, abroad, federal or under new-citizen protection. Each merc gets a different random pool, so you don't collide. Includes a one-key "Attack Next Target" bar on the attack screen. |
-| 💼 **Trader Watch** | `TW` | Trader watchlist with out-of-hospital alerts for safe-keeping hospitalization services. |
-| ⭐ **Full Radar** | `FULL` | All four modules. |
-
-**One-line rows** (more than 4 targets; you can change the number in Options). Each row shows, left to right: online status, time since last action, name, then an HP bar when they're out or a red ✚ with their hospital time, a 🧱 when they're on a wall, ✈️ when travelling, and the **Hit** button (green when they can be hit). Click a row to open its full card.
-
-<p>
-<img src="images/radar-compact.png" width="380" alt="One-line rows for a long target list">
-<img src="images/faction-watch.png" width="380" alt="Faction Watch contract">
-</p>
-
-![Attack screen bar](images/attack-bar.png)
+| 🎯 **Sniper Pro** | `SP` | Ad-hoc contracts: unlimited targets, contract-aware alarm, Early Discharge and wall detection, Stricken tags, illegal-hit evidence |
+| 🔗 **Chain Kit** | `CK` | Chains and energy dumps: Smart Pool, Quick Hit, Attack Next Target bar, chain bells |
+| 🏴 **Faction Watch** | `FW` | Turtling: eligible members, weapon reminder, attack-screen check |
+| 💼 **Trader Watch** | `TW` | Traders who need hospitalizing: out-and-online alerts |
+| ⭐ **Full Radar** | `FULL` | All four modules |
 
 <img src="images/options.png" width="380" alt="Options grouped by module">
 
@@ -68,7 +104,7 @@ The paid modules are not in the public download. Once you have paid or started t
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/), then click **[Install](https://raw.githubusercontent.com/MerogieMagic/stakeout-radar-releases/main/torn_mercenary_stakeout.user.js)**.
 2. Open Torn. The radar asks for an API key. Click **✨ Generate key**: Torn opens its key page with only the access the radar needs already ticked (a Custom key). Create it, then paste it in.
 3. To try every module, open **🛒 Store** and click **🎁 Start 24h free trial**. To buy, see [Pricing](#pricing).
-4. Then click **⬇️ Install my copy** in the Store, choose Install / Reinstall in the tab that opens, and refresh Torn.
+4. Then, in the Store, click **⭐ Get my personal copy** (after a trial it's already there) and **⬇️ Install my copy**, choose Install / Reinstall in the tab that opens, and refresh Torn.
 
 Updates install automatically. When a new version is out, the radar shows an **Update now** banner.
 
