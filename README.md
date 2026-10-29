@@ -31,7 +31,7 @@ Also for contracts:
 
 When the chain is about to drop, or you just want to burn your energy, you need a hittable target **now**, not a search through the people page.
 
-- **Quick Hit** opens an attack on a target from your **Smart Pool**: level-1 players checked to be out of hospital, not in jail, not abroad, not federal and not under new-citizen protection. Each merc gets a different random pool, so you don't collide on the same targets.
+- **Quick Hit** opens an attack on a target from your **Smart Pool**: low-level accounts checked to be out of hospital, not in jail, not abroad, not federal and not under new-citizen protection. The pool is matched to your own account: newer players get the newest, weakest accounts; veterans get a wider pool reaching a little further up. Each merc gets their own slice, so you don't collide on the same targets. Nothing to set up.
 - On the attack screen, the **Attack Next Target** bar takes you to the next pool target in one click, and shows your energy left ("125/150 E · 5 hits").
 - **Chain watcher:** chain timer bells before the chain breaks.
 - Ideal for Halloween: dump your energy into fast, easy hits to farm treats.
