@@ -46,8 +46,9 @@ When the chain is about to drop, or you just want to burn your energy, you need 
 
 Add the client faction and see at a glance which members you're allowed to hit.
 
-- Each member (and each of your targets) shows a rough **battle-stat bracket** (<2k, 2k–25k, 20k–250k, 200k–2.5m, 2m–25m, 20m–250m, >200m), worked out from their public rank, level, crimes and networth. No third-party service: one quick lookup every 5 seconds, remembered for a week.
+- Each member (and each of your targets) shows a rough **battle-stat bracket** (<2k, 2k–25k, 20k–250k, 200k–2.5m, 2m–25m, 20m–250m, >200m), worked out from their public rank, level, crimes and networth. No third-party service, and gentle on your API budget.
 - Members are sorted into **eligible**, **soon**, **in hospital** and **active**, using the contract's rule: offline, idle or both for at least X minutes, or **online right now** when the job is to hospitalize the onliners.
+- **War mode:** with a contract on **Online**, the faction gets priority over everything else, so members who come online show up within seconds.
 - Each merc sees the eligible members in a different order, so you spread out instead of all hitting the same member.
 - The contract shows a **Stricken** or **Standard** weapon reminder.
 - On the attack screen a banner confirms whether this member is eligible, before you swing.
@@ -63,7 +64,7 @@ Traders who regularly ask to be hospitalized for safe-keeping can be watched lik
 
 - Watch 1 target: hospital timer, and a desktop notification when they're out (alarm sounds come with Sniper Pro).
 - On the attack screen: energy left, your life, and a reminder to heal before you start a fight (with a link that opens your items page).
-- A small counter in the header shows your API calls per minute.
+- A small counter in the header shows your API calls per minute. The radar manages your API budget for you: the targets most likely to become hittable get the freshest data, and it never goes over your limit.
 - Works with several Torn tabs open: only one tab polls the API and only one tab rings, so your API usage doesn't multiply.
 
 ### Modules at a glance
