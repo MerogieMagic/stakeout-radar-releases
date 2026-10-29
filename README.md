@@ -19,10 +19,14 @@ Add the contract target and get on with your day. The radar rings only when the 
 - **No Early Discharge**: if they're in a ranked war or on a territory wall (attacking or defending), the contract pauses itself, so you don't hit someone who can be pulled out of hospital. Click to force it if you choose to.
 
 Also for contracts:
-- **Stricken contracts:** right-click a target to tag it 🎯 Stricken. It's alerted like any other target, and every alert adds "🗡️ Use your Stricken weapon!". Its card and attack button turn purple as a reminder. Right-click again to untag.
+- **Right-click a target** for its menu:
+  - **🗡️ Stricken:** tag a Stricken contract. It's alerted like any other target, and every alert adds "🗡️ Use your Stricken weapon!". Its card and attack button turn purple as a reminder.
+  - **🔗 Contract link:** attach the contract's Discord post. A 🔗 then sits on the target, and one click takes you back to post your hit report.
+
+<img src="images/target-menu.png" width="520" alt="Right-click menu with Stricken and contract link">
 - Hospital countdown, with polling every second in the last minute, so you're on the attack page the moment they're out.
 - Flight landings: an alert when they land and are hittable.
-- Illegal-hit evidence (turn it on in Options): if someone else hospitalizes your target, you get an evidence card with a screenshot.
+- Illegal-hit alert (turn it on in Options): if someone else hospitalizes your target against the contract's rules, you're alerted; click the alert to open their profile, where Torn shows who did it. The card's evidence panel has the details, and a Download button if you want an image.
 - More than 4 targets fold into one-line rows. Each row shows online status, time since last action, name, then an HP bar when they're out or a red ✚ with their hospital time, 🧱 when they're on a wall, ✈️ when flying, and **Hit**, which turns green when they can be hit. Click a row for the full card.
 
 <img src="images/radar-compact.png" width="380" alt="One-line rows for a long target list">
@@ -42,6 +46,7 @@ When the chain is about to drop, or you just want to burn your energy, you need 
 
 Add the client faction and see at a glance which members you're allowed to hit.
 
+- Each member (and each of your targets) shows a rough **battle-stat bracket** (<2k, 2k–25k, 20k–250k, 200k–2.5m, 2m–25m, 20m–250m, >200m), worked out from their public rank, level, crimes and networth. No third-party service: one quick lookup every 5 seconds, remembered for a week.
 - Members are sorted into **eligible**, **soon**, **in hospital** and **active**, using the contract's rule: offline, idle or both for at least X minutes, or **online right now** when the job is to hospitalize the onliners.
 - Each merc sees the eligible members in a different order, so you spread out instead of all hitting the same member.
 - The contract shows a **Stricken** or **Standard** weapon reminder.
@@ -65,7 +70,7 @@ Traders who regularly ask to be hospitalized for safe-keeping can be watched lik
 
 | Module | Code | For |
 |---|---|---|
-| 🎯 **Sniper Pro** | `SP` | Ad-hoc contracts: unlimited targets, contract-aware alarm, Early Discharge and wall detection, Stricken tags, illegal-hit evidence |
+| 🎯 **Sniper Pro** | `SP` | Ad-hoc contracts: unlimited targets, contract-aware alarm, Early Discharge and wall detection, Stricken tags, illegal-hit alerts |
 | 🔗 **Chain Kit** | `CK` | Chains and energy dumps: Smart Pool, Quick Hit, Attack Next Target bar, chain bells |
 | 🏴 **Faction Watch** | `FW` | Turtling: eligible members, weapon reminder, attack-screen check |
 | 💼 **Trader Watch** | `TW` | Traders who need hospitalizing: out-and-online alerts |
@@ -118,7 +123,7 @@ This follows the disclosure asked for by Torn's API terms of use.
 | **Data sharing** | None. Nothing is shared with or sold to anyone. |
 | **Purpose of use** | Showing you, the key owner, when your own targets can be hit; and licensing the paid modules. |
 | **Key storage and sharing** | Your key is stored only in your browser's userscript storage. It is used to call `api.torn.com` directly. It is sent to the license server only when you start the free trial or ask for your personal copy, so Torn can confirm your player ID and name; it is used for that single call and never stored or logged. |
-| **Key access level** | A Custom key with: user `basic, profile, bars, cooldowns`, faction `basic`, torn `rankedwars, territorywars`. Use **✨ Generate key** to create exactly that. |
+| **Key access level** | A Custom key with: user `basic, profile, bars, cooldowns, personalstats`, faction `basic`, torn `rankedwars, territorywars`. Use **✨ Generate key** to create exactly that. Personal stats are only read for other players' public crime and networth totals, to estimate their stat bracket. |
 
 The seller's own server reads only the seller's item log (Custom key: user → log) to detect Xanax payments.
 
