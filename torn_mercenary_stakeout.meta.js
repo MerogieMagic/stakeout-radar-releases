@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Torn City - Mercenary Stakeout Radar
 // @namespace    Violentmonkey Scripts
-// @version      1.99
+// @version      2.00
 // @description  Precision mercenary target stakeout radar: Faction Watch turtle contracts, smart random chain target pool, live multi-target tracking for hospital discharge, online activity, flight landings, absolute HP, faction chain watcher with bell alerts, early discharge active war detector with contract auto-pause, compact cards, trader hospitalization services watchlist, and illegal hit auto-screenshot evidence engine.
 // @author       Merogie
 // @match        https://www.torn.com/*
